@@ -5,7 +5,7 @@ require_relative "lib/create_pdf"
 
 # valid url
 # https://www.vinlandsagamanga.net/manga/vinland-saga-chapter-30/
-URL_WITHOUT_CHAPTER_NUMBER = "https://www.vinlandsagamanga.net/manga/vinland-saga-chapter"
+URL_WITHOUT_CHAPTER_NUMBER = "https://www.vinlandsagamanga.net/manga/vinland-saga-chapter".freeze
 
 print "Send number of chapeter: "
 number = gets.chomp
